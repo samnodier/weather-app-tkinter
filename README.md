@@ -1,6 +1,6 @@
 ## Weather App Tkinter :100:
 
-[Python Weather App](./img/screenshot.JPG)
+![Python Weather App](./img/screenshot.JPG)
 
 This is a cool weather app created using :snake: Python Tkinter library. It's a cool app with different different features including __fetching data__, __displaying them correctly in the app__.
 
