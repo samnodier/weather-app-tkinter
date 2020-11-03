@@ -1,6 +1,6 @@
 # Weather App Tkinter :100:
 
-![Python Weather App](./img/screenshot.JPG)
+![Python Weather App](./weather_app/img/screenshot.JPG)
 
 The Weather App Tkinter is an application made with :snake: Python Tkinter library that displays
 the __weather information__ like (temperature, pressure, humidity) and the __timezone__ of the city
@@ -8,7 +8,7 @@ entered in the search box.
 
 If you have Python installed already you can clone this repository and run `cli.py` file which
 display the weather app window. Or for simplicity download the full functioning application by
-clicking [here](https://github.com/sam0132nodier/weather-app-tkinter/app/weatherapp.exe)
+clicking [here](https://github.com/sam0132nodier/weather-app-tkinter/raw/master/app/weatherapp.exe)
 
 Double click on the download software and the app will run, enter the city or the zip code with
 the country information and then you'll be able to see the weather information of the place displayed.
