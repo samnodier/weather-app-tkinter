@@ -6,7 +6,7 @@ from setuptools import setup
 # The directory containing this file
 THIS = os.path.abspath(os.path.dirname(__file__))
 
-# The text of the README file
+# Read the text of the README file
 with open(os.path.join(THIS, "README.md")) as fid:
 	README = fid.read()
 
