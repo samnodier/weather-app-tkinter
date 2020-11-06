@@ -64,7 +64,7 @@ class Window(Frame):
 						place["text"] = f'{data["name"]}, {data["sys"]["country"]}'
 
 						# Update the time_date label
-						time_date["text"] = f'{strftime("%H:%M - %A, %d %b %Y", localtime(int(data["dt"])))}'
+						time_date["text"] = f'{strftime("%H:%M - %A, %d %b %Y", localtime(int(data["dt"])+int(data["timezone"])))}'
 
 						# Update the search bos
 						e.set('')
