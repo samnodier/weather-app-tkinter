@@ -79,8 +79,8 @@ class Window(Frame):
 						# Add connection error image to the r_image
 						# r_image = requests.get(f"http://openweathermap.org/img/wn/{data['weather'][0]['icon']}@2x.png")
 						# load = Image.open(BytesIO(r_image.content))
-						file = os.path.join(THIS, "./img/404.gif")
-						render = PhotoImage(file=file)
+						file = os.path.join(THIS, "img\\404.gif")
+						render = PhotoImage(file="img\\404.gif")
 						img["image"] = render
 						img.image = render
 
@@ -109,8 +109,8 @@ class Window(Frame):
 				except requests.exceptions.ConnectionError:
 					# Add connection error image to the r_image
 					# r_image = requests.get(f"http://openweathermap.org/img/wn/{data['weather'][0]['icon']}@2x.png")
-					load = Image.open(BytesIO(r_image.content))
-					file = os.path.join(THIS, "./img/no_connection.gif")
+					# load = Image.open(BytesIO(r_image.content))
+					file = os.path.join(THIS, "img\\no_connection.gif")
 					render = PhotoImage(file=file)
 					img["image"] = render
 					img.image = render
@@ -140,7 +140,7 @@ class Window(Frame):
 		# Change the title of the window
 		self.master.title('Weather App')
 		# self.master.iconname('weatherapp')
-		# self.master.iconbitmap(self, default='./img/Robinweatherall-Seasonal-Cloud-dark.ico');
+		# self.master.iconbitmap(self, default='img\\Robinweatherall-Seasonal-Cloud-dark.ico');
 
 		# Allow the widget to take the full space of root window
 		self.pack(fill=BOTH, expand=1)
@@ -245,8 +245,8 @@ class Window(Frame):
 					cloudy["text"] = f'Couldy: {data["clouds"]["all"]}%'
 				if(len(data) == 2 and int(data['cod']) == 404):
 					# Add connection error image to the r_image
-					file = os.path.join(THIS, "./img/404.gif")
-					render = PhotoImage(file=file)
+					file = os.path.join(THIS, "img\\404.gif")
+					render = PhotoImage(file="img\\404.gif")
 					img["image"] = render
 					img.image = render
 
@@ -274,8 +274,8 @@ class Window(Frame):
 
 			except requests.exceptions.ConnectionError:
 				# Add connection error image to the r_image
-				file = os.path.join(THIS, "./img/no_connection.gif")
-				render = PhotoImage(file=file)
+				file = os.path.join(THIS, "img\\no_connection.gif")
+				render = PhotoImage(file="img\\no_connection.gif")
 				img["image"] = render
 				img.image = render
 
