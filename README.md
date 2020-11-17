@@ -10,7 +10,7 @@ If you have Python already installed you can clone this repository and run `cli.
 in the project directory by opening your terminal or command prompt and type `python cli.py`. This
 displays the weather app window but __make sure you have all dependencies installed__.
 
-You can also download the full functioning application by made by `pyinstaller` by clicking [here](https://github.com/sam0132nodier/weather-app-tkinter/raw/master/dist/WeatherApp.exe)
+You can also download the full functioning application made by `pyinstaller` by clicking [here](https://github.com/sam0132nodier/weather-app-tkinter/raw/master/dist/WeatherApp.exe)
 or cloning the repository and navigate to dist repository.
 
 Double click on the download software and the app will run, enter the city or the zip code with
