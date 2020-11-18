@@ -15,6 +15,8 @@ or cloning the repository and navigate to dist repository.
 
 Double click on the download software and the app will run, enter the city or the zip code with
 the country information and then you'll be able to see the weather information of the place displayed.
+If by any chances the app disappears or don't run due to some errors. The problem might be caused by your
+antivirus. Add the application to the white list or disable the antivirus for a while and test the app.
 
 ## App dependencies
 - tkinter (Can be installed by `pip install tkinter`)
