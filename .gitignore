@@ -1,6 +1,7 @@
 Thumbs.db
 
-build/
+# Distribution / packaging
+build/WeatherApp/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
