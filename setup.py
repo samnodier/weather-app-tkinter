@@ -1,6 +1,7 @@
 """Setup file for weather-app-tkinter"""
 
 import os.path
+
 from setuptools import setup
 
 # The directory containing this file
