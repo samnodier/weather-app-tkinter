@@ -2,13 +2,16 @@
 Icon from https://iconarchive.com/show/seasonal-icons-by-robinweatherall/cloud-dark-icon.html
 """
 
-from tkinter import *
-from PIL import Image, ImageTk
-import requests
-from time import localtime, strftime
-from io import BytesIO
 import os
+import requests
 import sys
+
+from PIL import Image
+from PIL import ImageTk
+from io import BytesIO
+from time import localtime
+from time import strftime
+from tkinter import *
 
 # Width and the height of the window
 WIDTH = 800
